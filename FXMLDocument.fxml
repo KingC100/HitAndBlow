@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="hitandblow.FXMLDocumentController">
+  <children>
+    <TextField fx:id="txb_Digit4" layoutX="35.0" layoutY="56.0" prefHeight="32.0" prefWidth="36.0" />
+    <TextField fx:id="txb_Digit3" layoutX="90.0" layoutY="56.0" prefHeight="32.0" prefWidth="36.0" />
+    <TextField id="txb_Digit1" fx:id="txb_Digit2" layoutX="143.0" layoutY="56.0" prefHeight="32.0" prefWidth="36.0" />
+    <TextField fx:id="txb_Digit1" layoutX="195.0" layoutY="56.0" prefHeight="31.999900000002526" prefWidth="35.9998779296875" />
+    <Button fx:id="btn_Enter" layoutX="247.0" layoutY="167.0" mnemonicParsing="false" onAction="#Execute" text="Enter" />
+    <Label fx:id="lbl_Result" layoutX="40.0" layoutY="143.0" prefHeight="32.0" prefWidth="183.0" text="" />
+  </children>
+</AnchorPane>
